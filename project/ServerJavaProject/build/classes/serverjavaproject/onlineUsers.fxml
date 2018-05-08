@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="591.0" prefWidth="620.0" style="-fx-background-color: #51475e;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serverjavaproject.OnlineUsersController">
+   <children>
+      <ListView fx:id="list" layoutX="74.0" layoutY="38.0" prefHeight="493.0" prefWidth="472.0" style="-fx-background-color: #eac9bf;" />
+      <Button fx:id="refre" layoutX="477.0" layoutY="543.0" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+   </children>
+</AnchorPane>

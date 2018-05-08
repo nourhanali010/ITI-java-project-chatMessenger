@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="816.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/img/Background.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="50.0" layoutY="50.0" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #ffffff; -fx-opacity: .8;">
+         <children>
+            <Label layoutX="288.0" layoutY="29.0" style="-fx-font-size: 40; -fx-font-weight: bold; -fx-text-fill: #272433;" text="Sign Up" />
+            <AnchorPane layoutX="129.0" layoutY="114.0" prefHeight="50.0" prefWidth="450.0">
+               <children>
+                  <TextField fx:id="username" layoutX="45.0" layoutY="5.0" prefHeight="40.0" prefWidth="400.0" promptText="Username" />
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/username.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="129.0" layoutY="176.0" prefHeight="50.0" prefWidth="450.0">
+               <children>
+                  <TextField fx:id="email" layoutX="45.0" layoutY="5.0" prefHeight="40.0" prefWidth="400.0" promptText="Email" />
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/email.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="129.0" layoutY="238.0" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/password.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="pass" layoutX="45.0" layoutY="5.0" prefHeight="40.0" prefWidth="150.0" promptText="Password" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="379.0" layoutY="237.0" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/password.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="repass" layoutX="45.0" layoutY="5.0" prefHeight="40.0" prefWidth="150.0" promptText="Re-Type Password" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="129.0" layoutY="300.0" prefHeight="50.0" prefWidth="225.0">
+               <children>
+                  <TextField fx:id="age" layoutX="5.0" layoutY="5.0" prefHeight="40.0" prefWidth="215.0" promptText="Age" />
+               </children>
+            </AnchorPane>
+            <ComboBox fx:id="gender" layoutX="375.0" layoutY="305.0" prefHeight="40.0" prefWidth="200.0" promptText="Gender" />
+            <AnchorPane layoutX="129.0" layoutY="280.0" prefHeight="50.0" prefWidth="450.0" visible="false">
+               <children>
+                  <TextField fx:id="pic" layoutX="5.0" layoutY="5.0" prefHeight="40.0" prefWidth="355.0" promptText="Profile Picture" visible="false" />
+                  <Button fx:id="browse" layoutX="385.0" layoutY="5.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Browse" visible="false" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="135.0" layoutY="382.0" mnemonicParsing="false" onMousePressed="#signUpA" prefHeight="40.0" prefWidth="450.0" style="-fx-background-color: #272433; -fx-text-fill: #ffffff; -fx-font-size: 20; -fx-font-weight: bold;" text="Sign Up" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+#listViewMsg{
+   -fx-background-color:  #eac9bf;
+}
+#vbox {
+	-fx-background-color: #ECF2F4;
+}
+
+#rhbox1 {
+	-fx-background-color: #90B5C1;
+	-fx-background-radius: 50 50 50 50;
+}
+
+#rhbox2 {
+	-fx-background-color: #90B5C1;
+	-fx-background-radius: 50 50 10 50;
+}
+
+#rhbox3 {
+	-fx-background-color: #90B5C1;
+	-fx-background-radius: 50 10 10 50;
+}
+
+#rhbox4 {
+	-fx-background-color: #90B5C1;
+	-fx-background-radius: 50 10 50 50;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="ServerJavaProject">
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/DTOModel/MessageDTO.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/BusinessLayerImpl/ChatServerImpl.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/Utilities/RMIUtilities.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/DBManeger/DBManeger.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/BusinessLayerInsterface/ChatClientInt.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/serverjavaproject/ServerJavaProject.java</file>
+            <file>file:/D:/nour/project/javaproject/ServerJavaProject/src/DAOImplementation/UserDAOImpl.java</file>
+        </group>
+        <group>
+            <file>file:/D:/server2/javaproject/ServerJavaProject/src/serverjavaproject/FXMLDocumentController.java</file>
+        </group>
+        <group name="fxmlProject">
+            <file>file:/home/asmaa/Desktop/javaProject/project/serverjava/ServerJavaProject/src/BusinessLayerInsterface/ChatClientInt.java</file>
+            <file>file:/home/asmaa/Desktop/javaProject/project/serverjava/ServerJavaProject/src/BusinessLayerInsterface/ChatServerInt.java</file>
+            <file>file:/home/asmaa/Desktop/javaProject/project/serverjava/ServerJavaProject/src/BusinessLayerImpl/ChatServerImpl.java</file>
+            <file>file:/home/asmaa/Desktop/javaProject/project/serverjava/ServerJavaProject/src/DAOImplementation/UserDAOImpl.java</file>
+        </group>
+        <group name="javaproject">
+            <file>file:/C:/Users/Omar/Desktop/JavaProject/final/server/finalserver/ServerJavaProject/src/BusinessLayerImpl/ChatServerImpl.java</file>
+            <file>file:/C:/Users/Omar/Desktop/JavaProject/final/server/finalserver/ServerJavaProject/src/DAOImplementation/UserDAOImpl.java</file>
+        </group>
+        <group name="Web">
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DTOModel/UserBinding.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DBManeger/DBManeger.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/BusinessLayerImpl/ChatServerImpl.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/serverjavaproject/FXMLDocumentController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DAOInterface/UserDAOInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DAOInterface/MessageDAOInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/serverjavaproject/SendMessageController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DAOInterface/DAOInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DTOModel/UserDTO.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/Model/cashing/UserData.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/serverjavaproject/OnlineUsersController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DTOModel/MessageDTO.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/BusinessLayerInsterface/ChatClientInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/BusinessLayerInsterface/ChatServerInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/serverjavaproject/ServerJavaProject.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DAOImplementation/UserDAOImpl.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/DTOModel/RequestModel.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/Utilities/RMIUtilities.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ServerJavaProject/src/serverjavaproject/UserTableController.java</file>
+        </group>
+    </open-files>
+</project-private>

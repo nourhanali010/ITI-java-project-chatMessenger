@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="ServerJavaProject">
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/XMLMODEL/history.xsd</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/view/cusomItem/chatMsg/MsgItemCotroller.java</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/XMLMODEL/history.xml</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/view/cusomItem/chatMsg/MessageModel.java</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/view/main/ChaaatController.java</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/XMLMODEL/history.xsl</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/ClientImpl/ClientImpl.java</file>
+            <file>file:/D:/Asmaa/finalclient/ClientJavaProject/src/view/main/HomeController.java</file>
+        </group>
+        <group name="Web">
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/Utilities/RMIUtilities.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/login/ClientJavaProject.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/XML/MessageType.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/login/LoginController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/nbproject/build-impl.xml</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/XML/ObjectFactory.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/DTOModel/UserDTO.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/DTOModel/UserBinding.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/cusomItem/contactList/ContactListCell.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/XML/HistoryType.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/SignUp/ClientLoginProject.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/BusinessLayerInsterface/ChatClientInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/DTOModel/MessageDTO.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/Utilities/ValidationUtilities.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/BusinessLayerInsterface/ChatServerInt.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/SignUp/SignUpController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/ClientImpl/ClientImpl.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/cusomItem/chatMsg/MessageCell.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/cusomItem/contactList/ContactItemController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/cusomItem/chatMsg/MsgItemCotroller.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/main/HomeController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/Model/cashing/UserData.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/main/ChaaatController.java</file>
+            <file>file:/home/asmaa/Desktop/aya/ClientJavaProject/src/view/cusomItem/chatMsg/MessageModel.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ClientJavaProject.jnlp">
+  <information>
+    <title>ClientJavaProject</title>
+    <vendor>asmaa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ClientJavaProject.jar" size="236708" download="eager" />
+    <jar href="lib/FileTransever2.jar" size="5988" download="eager" />
+    <jar href="lib/commons-logging-1.1.3.jar" size="62050" download="eager" />
+    <jar href="lib/controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib/javafx-mx.jar" size="36038" download="eager" />
+    <jar href="lib/rmiio-2.1.2.jar" size="110848" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ClientJavaProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="view.login.ClientJavaProject"  name="ClientJavaProject" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="543.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serverjavaproject.ChartsController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="620.0" style="-fx-background-color: #51475e;">
+         <children>
+            <AnchorPane layoutX="22.0" layoutY="14.0" prefHeight="314.0" prefWidth="580.0" style="-fx-background-color: #8d8794;">
+               <children>
+                  <AnchorPane prefHeight="35.0" prefWidth="580.0" style="-fx-background-color: #1d1a28;">
+                     <children>
+                        <Text fill="WHITE" layoutX="9.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <BarChart fx:id="ageChart" layoutX="-15.0" layoutY="37.0" prefHeight="289.0" prefWidth="593.0">
+                     <xAxis>
+                        <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis fx:id="yAxis" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="19.0" layoutY="360.0" prefHeight="240.0" prefWidth="275.0" style="-fx-background-color: #8d8794;">
+               <children>
+                  <AnchorPane prefHeight="35.0" prefWidth="275.0" style="-fx-background-color: #1d1a28;">
+                     <children>
+                        <Text fill="WHITE" layoutX="6.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" wrappingWidth="82.99999269843102">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <PieChart fx:id="genderPie" layoutX="4.0" layoutY="34.0" prefHeight="206.0" prefWidth="267.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="323.0" layoutY="360.0" prefHeight="240.0" prefWidth="243.0" style="-fx-background-color: #8d8794;">
+               <children>
+                  <AnchorPane prefHeight="35.0" prefWidth="279.0" style="-fx-background-color: #1d1a28;" />
+                  <Text fill="WHITE" layoutX="9.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <PieChart fx:id="statusPie" layoutX="4.0" layoutY="35.0" prefHeight="206.0" prefWidth="275.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

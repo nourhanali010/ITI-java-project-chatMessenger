@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><?xml-stylesheet type='text/xsl' href='history.xsl'?>
+<history xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" owner="nour@gmail.com" xsi:noNamespaceSchemaLocation="history.xsd">
+    <message>
+        <from>asmaa@gmail</from>
+        <to>nour@gmail.com</to>
+        <size>0</size>
+        <body>hey</body>
+    </message>
+    <message>
+        <from>nour@gmail.com</from>
+        <to>asmaa@gmail</to>
+        <size>0</size>
+        <body>how are u</body>
+    </message>
+</history>

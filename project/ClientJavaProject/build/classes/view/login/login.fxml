@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="aPane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="790.0" style="-fx-background-image: view.Background.png;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.login.LoginController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="816.0" layoutX="-7.0" onMouseReleased="#loginPressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/img/Background.png" />
+         </image>
+      </ImageView>
+      <AnchorPane id="aPane2" layoutX="150.0" layoutY="150.0" prefHeight="335.0" prefWidth="500.0" style="-fx-background-color: #ffffff; -fx-opacity: .8;">
+         <children>
+            <Text id="loginText" fill="#483e54" layoutX="162.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 35;" text="User Login" />
+            <Button id="logB" fx:id="btnLogin" layoutX="97.0" layoutY="191.0" mnemonicParsing="false" onMousePressed="#loginPressed" prefHeight="36.0" prefWidth="307.0" style="-fx-background-color: #483e54; -fx-text-fill: #ffffff; -fx-font-size: 20; -fx-padding: 3; -fx-font-weight: bold;" text="Login" />
+            <AnchorPane id="textPane1" layoutX="97.0" layoutY="100.0" prefHeight="35.0" prefWidth="307.0" style="-fx-background-color: #e6dcd8; -fx-border-color: #483e54; -fx-border-width: 0 0 3 0;">
+               <children>
+                  <TextField id="textF1" fx:id="txtViewEmail" layoutX="28.0" layoutY="1.0" prefHeight="30.0" prefWidth="274.0" promptText="Email" style="-fx-background-color: #e6dcd8;" />
+                  <ImageView fitHeight="17.0" fitWidth="15.0" layoutX="8.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/email.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane id="textPane2" layoutX="97.0" layoutY="145.0" prefHeight="35.0" prefWidth="307.0" style="-fx-background-color: #e6dcd8; -fx-border-color: #483e54; -fx-border-width: 0 0 3 0;">
+               <children>
+                  <TextField id="textF2" fx:id="txtViewPass" layoutX="27.0" prefHeight="30.0" prefWidth="274.0" promptText="Password" style="-fx-background-color: #e6dcd8;" />
+                  <ImageView fitHeight="19.0" fitWidth="24.0" layoutX="9.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/password.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button id="signB" fx:id="btnSignUp" layoutX="107.0" layoutY="293.0" mnemonicParsing="false" onMousePressed="#signUpPressed" prefHeight="28.0" prefWidth="287.0" style="-fx-background-color: transparent; -fx-text-fill: #483e54; -fx-font-size: 14; -fx-font-weight: bold;" text="Don't have an account? Sing Up!" />
+         </children></AnchorPane>
+      <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="338.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../src/img/logo2.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

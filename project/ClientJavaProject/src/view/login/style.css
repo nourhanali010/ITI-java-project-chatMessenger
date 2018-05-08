@@ -1,0 +1,47 @@
+#loginText {
+	-fx-font: 45px "Segoe UI";
+	-fx-font-weight: bold;
+    -fx-text-fill: #483e54;
+	-fx-text-alignment: CENTER;
+}
+
+#textF1 {
+	-fx-background-color: #e6dcd8;
+    -fx-border-width: 3;
+    -fx-border-color: #483e54;
+	-fx-border-style: none none solid none;
+}
+
+#textF2 {
+	-fx-background-color: #e6dcd8;
+}
+
+#textPane1 {
+	-fx-background-color: #e6dcd8;
+}
+
+#textPane2 {
+	-fx-background-color: #e6dcd8;
+}
+
+#logB {
+	-fx-background-color: #483e54;
+	-fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+#signB {
+	-fx-background-color: transparent;
+	-fx-text-fill: #483e54;
+	-fx-font-size: 12px;
+}
+
+#aPane1 {
+	-fx-background-image: url("Background.png");
+}
+
+#aPane2 {
+	-fx-background-color: rgba(255, 255, 255, 0.5);
+	-fx-opacity: 0.5;
+}

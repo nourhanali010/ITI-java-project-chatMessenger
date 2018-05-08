@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="-1.0" prefHeight="57.0" prefWidth="419.0" style="-fx-background-color: #ca9f93;">
+         <children>
+            <ImageView fx:id="imgMenuChat" fitHeight="39.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="20.0" right="5.0" top="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../src/img/profile_pic.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lableMenuChatName" prefHeight="22.0" prefWidth="130.0" text="Asmaa">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Label>
+            <AnchorPane prefHeight="57.0" prefWidth="271.0">
+               <children>
+                  <ImageView fx:id="sendFile" fitHeight="21.0" fitWidth="31.0" layoutX="214.0" layoutY="16.0" onMouseClicked="#sendFileRmi" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/attachment.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="saveChat" fitHeight="58.0" fitWidth="27.0" layoutX="177.0" layoutY="13.0" onMouseClicked="#saveXml" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../src/img/download.png" />
+                     </image>
+                  </ImageView>
+                  <ColorPicker fx:id="color" layoutX="14.0" layoutY="9.0" onMousePressed="#setColor" prefHeight="31.0" prefWidth="48.0" style="-fx-background-color: #ffffff;" />
+                  <MenuButton fx:id="fonts" layoutX="75.0" layoutY="9.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="77.0" style="-fx-background-color: #ffffff;" text="Fonts">
+                    <items>
+                      <MenuItem fx:id="Arial" mnemonicParsing="false" onAction="#setArialFont" text="Arial" />
+                      <MenuItem fx:id="Verdana" mnemonicParsing="false" onAction="#setVerdanaFont" text="Verdana" />
+                        <MenuItem fx:id="Comic" mnemonicParsing="false" onAction="#setComicFont" text="Comic Sans MS" />
+                    </items>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane layoutX="-1.0" layoutY="68.0" prefHeight="473.0" prefWidth="419.0" style="-fx-background-color: #eac9bf;">
+         <children>
+            <ListView fx:id="listViewMsg" layoutY="-14.0" prefHeight="524.0" prefWidth="419.0" style="-fx-background-color: #eac9bf;" />
+         </children>
+      </AnchorPane>
+      <HBox alignment="CENTER" layoutX="-1.0" layoutY="522.0" prefHeight="57.0" prefWidth="419.0" style="-fx-background-color: #ca9f93;">
+         <children>
+            <ImageView fx:id="imgEmoji" fitHeight="20.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../src/img/emojis.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtMsg" onKeyPressed="#enterTxtMsgPressed" prefHeight="36.0" prefWidth="332.0" promptText="Enter your message here">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+            </TextField>
+            <ImageView fx:id="imgSend" fitHeight="16.0" fitWidth="23.0" onKeyPressed="#imgSendClick2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../src/img/send.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
