@@ -12,4 +12,4 @@ https://drive.google.com/open?id=15TpM_x56VOQ_9yZfObd0uVHZf4nMlNgW
     
  3. Run the jar file of the server.  
     
-![Image(]https://github.com/nourhanali010/ITI-java-project-chatMessenger/blob/master/screenShots/server/Screenshot%20from%202018-01-23%2014-34-29.png)
+![Image](https://github.com/nourhanali010/ITI-java-project-chatMessenger/blob/master/screenShots/server/Screenshot%20from%202018-01-23%2014-34-29.png)
